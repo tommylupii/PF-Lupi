@@ -1,18 +1,141 @@
-/* Error: Undefined variable.
- *    ,
- * 11 |     margin-bottom: $margin-5;
- *    |                    ^^^^^^^^^
- *    '
- *   scss\views\_messi.scss 11:20  @import
- *   scss\main.scss 5:9            root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 11 \2502      margin-bottom: $margin-5;\d\a    \2502                     ^^^^^^^^^\a    \2575 \a   scss\\views\\_messi.scss 11:20  @import\a   scss\\main.scss 5:9            root stylesheet";
+svg {
+  fill: rgba(0, 0, 0, 0.65);
 }
+
+.img {
+  height: 100%;
+  width: auto;
+}
+
+.container {
+  max-width: fit-content;
+}
+
+.header {
+  padding: 0;
+}
+
+.seccion-cys {
+  border: solid 2px;
+}
+
+.carrera__bg {
+  background-color: #4e832f;
+}
+
+.carrera p:last-of-type {
+  margin-bottom: 0;
+}
+.carrera img {
+  width: 100%;
+  height: auto;
+  margin: 5px;
+  margin-left: 0;
+}
+
+@media (min-width: 576px) {
+  .carrera img, iframe, p {
+    margin: 0;
+  }
+}
+.trofeos__bg {
+  background-color: #169ce9;
+}
+
+.trofeos img {
+  width: 100%;
+  height: auto;
+  margin: 5px;
+  margin-left: 0;
+}
+.trofeos h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.clubes__bg {
+  background-color: #581b1b;
+}
+
+.clubes {
+  color: white;
+}
+.clubes h3 {
+  display: flex;
+  justify-content: center;
+}
+.clubes img {
+  width: 100%;
+  height: auto;
+  margin: 5px;
+  margin-left: 0;
+}
+
+.seccion__fcb {
+  margin-bottom: 0;
+}
+
+.footer__images {
+  padding: 1rem;
+  height: 100%;
+}
+
+.footer__logos {
+  height: 24px;
+  width: 40px;
+}
+
+.galeria {
+  padding: 0;
+}
+
+.messi {
+  background-color: goldenrod;
+}
+
+.cards {
+  background-color: #0a530a;
+  box-sizing: border-box;
+}
+
+.vid1 {
+  grid-area: vid1;
+  width: 100%;
+  height: 100%;
+}
+
+.imagen-multi {
+  grid-area: img;
+}
+
+.vid2 {
+  grid-area: vid2;
+  width: 100%;
+  height: 100%;
+}
+
+.multimedia div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .multimedia {
+    display: grid;
+    grid-template-areas: "vid1 img vid2";
+    grid-template-rows: 100%;
+    grid-template-columns: 33% 33% 33%;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=main.css.map */

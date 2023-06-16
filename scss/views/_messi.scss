@@ -8,7 +8,7 @@
 
 .carrera{
   p:last-of-type{
-    margin-bottom: $margin-5;
+    margin-bottom: 0;
   }
   img{
     @include img  
@@ -17,7 +17,7 @@
 
 @media(min-width: 576px){
   .carrera img, iframe, p{
-      margin: $margin-5;
+      margin: 0;
   }
 }
 
@@ -51,5 +51,5 @@
 }
 
 .seccion__fcb{
-  margin-bottom: $margin-4;
+  margin-bottom: 0;
 }
