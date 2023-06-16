@@ -1,10 +1,10 @@
 /* Error: Undefined variable.
- *   ,
- * 6 |   background-color: $carrera;
- *   |                     ^^^^^^^^
- *   '
- *   scss\views\_messi.scss 6:21  @import
- *   scss\main.scss 3:9           root stylesheet */
+ *    ,
+ * 11 |     margin-bottom: $margin-5;
+ *    |                    ^^^^^^^^^
+ *    '
+ *   scss\views\_messi.scss 11:20  @import
+ *   scss\main.scss 5:9            root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -14,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 6 \2502    background-color: $carrera;\d\a   \2502                      ^^^^^^^^\a   \2575 \a   scss\\views\\_messi.scss 6:21  @import\a   scss\\main.scss 3:9           root stylesheet";
+  content: "Error: Undefined variable.\a    \2577 \a 11 \2502      margin-bottom: $margin-5;\d\a    \2502                     ^^^^^^^^^\a    \2575 \a   scss\\views\\_messi.scss 11:20  @import\a   scss\\main.scss 5:9            root stylesheet";
 }
