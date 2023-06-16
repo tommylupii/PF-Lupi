@@ -1,52 +1,42 @@
-.messi{
-  background-color: goldenrod;
-}
-
 .seccion-cys{
   border: solid 2px;
 }
 
 .carrera__bg{
-  background-color: #4e832f;
+  background-color: $carrera;
 }
 
 .carrera{
   p:last-of-type{
-    margin-bottom: 0;
+    margin-bottom: $margin-5;
   }
   img{
-    width: 100%;
-    height: auto;
-    margin: 5px;
-    margin-left: 0;
+    @include img  
   }
 }
 
 @media(min-width: 576px){
   .carrera img, iframe, p{
-      margin: 0;
+      margin: $margin-5;
   }
 }
 
 .trofeos__bg{
-  background-color: #169ce9;
+  background-color: $seleccion;
 }
 
 .trofeos{
   img{
-    width: 100%;
-    height: auto;
-    margin: 5px;
-    margin-left: 0;
+    @include img
   }
   h3{
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: $margin;
+    margin-bottom: $margin;
   }
 }
 
 .clubes__bg{
-  background-color: #581b1b;
+  background-color: $cys;
 }
 
 .clubes{
@@ -56,13 +46,10 @@
     justify-content: center;
   }
   img{
-    width: 100%;
-    height: auto;
-    margin: 5px;
-    margin-left: 0;
+    @include img
   }
 }
 
 .seccion__fcb{
-  margin-bottom: 1px;
+  margin-bottom: $maring-4;
 }

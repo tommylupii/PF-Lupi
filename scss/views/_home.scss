@@ -1,5 +1,9 @@
+.messi{
+  background-color: $gold;
+}
+
 .cards{
-  background-color: #0a530a;
+  background-color: $cards;
   box-sizing: border-box;
 }
 
@@ -35,7 +39,7 @@
       grid-template-rows: 100%; 
       grid-template-columns: 33% 33% 33%;
       padding: 0;
-      margin: 0;
+      margin: $margin-5;
       align-items: center;
       justify-content: center;
   }
